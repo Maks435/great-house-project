@@ -93,8 +93,8 @@
   border: 2px solid transparent;
   letter-spacing: 2px;
   background-color: var(--accent-color);
-  max-width: 272px;
   margin: auto;
+  width: 100%;
 }
 
 .footer__form {

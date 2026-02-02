@@ -103,7 +103,9 @@
     display: block;
     z-index: 101;
   }
-
+  .header__number.width {
+    width: 80%;
+  }
   .header.no-bg {
     background-image: none; /* Видаляємо картинку */
     background-color: var(

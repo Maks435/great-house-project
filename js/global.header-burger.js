@@ -3,6 +3,7 @@ const burger = document.querySelector(".header__burger");
 const nav = document.querySelector(".header__nav");
 const menuLinks = document.querySelectorAll(".header__menu-link");
 const header = document.querySelector(".header");
+const menuNumb = document.querySelector(".header__number");
 
 // Toggle menu function
 function toggleMenu() {
@@ -10,6 +11,7 @@ function toggleMenu() {
   nav.classList.toggle("is-open");
   document.body.classList.toggle("no-scroll");
   header.classList.toggle("no-bg");
+  menuNumb.classList.toggle("width");
 }
 
 // Close menu function
@@ -18,6 +20,7 @@ function closeMenu() {
   nav.classList.remove("is-open");
   document.body.classList.remove("no-scroll");
   header.classList.remove("no-bg");
+  menuNumb.classList.remove("width");
 }
 
 // Add click event listener to burger button
