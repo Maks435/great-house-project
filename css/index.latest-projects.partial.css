@@ -1,0 +1,58 @@
+.latest-projects__title {
+  font-size: 34px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  margin: 15px 0px;
+}
+
+.latest-projects__subtitle {
+  font-size: 19px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--light-text-color);
+  margin: 25px 0px;
+}
+
+.latest-projects__link {
+  font-size: 12px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--bottom-color);
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.latest-projects__header-action {
+  text-align: right;
+}
+
+.sectors__title {
+  font-size: 12px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--bottom-color);
+}
+
+.sectors__project-name {
+  font-size: 22px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+}
+
+.sectors__description {
+  font-size: 17px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--light-text-color);
+}
+
+.offer-promo__btn {
+  font-size: 13.2px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--main-text-color);
+}
+
+.latest-projects__container {
+  padding: 0px 24px 0px 24px;
+}
+
+.latest-projects__header {
+  margin: 40px 0px 20px 0px;
+}

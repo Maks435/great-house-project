@@ -1,0 +1,130 @@
+.footer__description {
+  font-size: 14px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--light-text-color);
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 22px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--text-color);
+}
+
+.footer__newsletter-text {
+  font-size: 14px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--text-color);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.footer__button {
+  font-size: 12px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--main-text-color);
+}
+
+.footer__container {
+  padding: 75px 24px 65px 24px;
+}
+
+.footer__logo {
+  max-width: 80%;
+  margin: auto;
+}
+
+.footer__socials {
+  display: flex;
+  max-width: 55%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer__social-icon {
+  width: 29px;
+  height: 29px;
+  margin: auto;
+  fill: var(--bottom-color);
+}
+
+.footer__item {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.footer__list {
+  line-height: 3;
+}
+
+.footer__divider {
+  width: 30%;             /* Або, наприклад, 50px, якщо лінія має бути короткою */
+  height: 3px;
+  background-color: var(--background-color-2); /* Колір як на скріні */
+  margin: auto;  
+  margin-top: 15px;
+  justify-content: center;        /* Відступи зверху та знизу по 15px */
+}
+
+.footer__button {
+  font-size: 13.2px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--main-text-color);
+  display: inline-block;
+  padding: 9px 85px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  letter-spacing: 2px;
+  background-color: var(--accent-color);
+  max-width: 272px;
+  margin: auto;
+}
+
+.footer__form {
+  width: 100%;
+  max-width: 370px;
+}
+
+.footer__input {
+  width: 100%;
+  padding: 9px 85px; /* Внутрішні відступи для висоти */
+  
+  /* Колір фону та рамки як на скріні */
+  background-color: var(--background-color-2); 
+  border: 1px solid var(--background-color-2);
+  /* Заокруглення кутів */
+  border-radius: 12px;
+  
+  /* Налаштування тексту */
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+/* Стиль для тексту-підказки (Email*) */
+.footer__input::placeholder {
+  color: var(--text-color);
+}
+
+.footer__form-group {
+  margin-bottom: 20px;
+}

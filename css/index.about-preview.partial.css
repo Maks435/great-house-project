@@ -1,0 +1,115 @@
+.about-preview__title {
+  position: relative;
+  padding-left: 15px;
+  font-size: 34px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    font-size: 41px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 48px;
+  }
+}
+
+.about-preview__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Центруємо вертикально відносно тексту */
+  width: 3px; /* Ширина лінії як на макеті */
+  height: 22px; /* Висота лінії (підкоригуй під розмір шрифту) */
+  background-color: var(--accent-color); /* Твій помаранчевий колір */
+}
+
+.about-preview__title-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--bottom-color);
+  margin-left: 2px;
+  font-size: 0;
+  vertical-align: baseline;
+  vertical-align: 4px;
+}
+
+.about-preview__text-first {
+  font-size: 19px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--light-text-color);
+  margin-bottom: 30px;
+}
+
+.about-preview__text-second {
+  font-size: 17px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.about-preview__container {
+  margin: auto;
+  max-width: 1250px;
+  padding: 50px 24px;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+/* картки */
+.about-preview__stat-label {
+  padding: 0px 18px;
+  font-size: 18px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--text-color);
+}
+.about-preview__stat-number {
+  padding: 0px 8px;
+  font-size: 34px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--accent-color);
+  font-weight: bold;
+  @media (min-width: 1024px) {
+    font-size: 48px;
+  }
+}
+.about-preview__stat-item {
+  padding: 0px 12px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  list-style: none;
+}
+.about-preview__stats-dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--bottom-color);
+  margin-left: 2px;
+  font-size: 0;
+  vertical-align: 20px;
+}
+/* фото */
+.about-preview__image-wrapper {
+  max-width: 90%;
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    min-width: 40%;
+    padding: 0px 15px;
+  }
+  @media (min-width: 1403px) {
+    max-width: 50%;
+  }
+}
+
+.about-preview__stats {
+  display: grid;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 1403px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

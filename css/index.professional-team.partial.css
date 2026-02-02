@@ -1,0 +1,124 @@
+.professional-team__title {
+  font-size: 34px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+  @media (min-width: 375px) {
+    font-size: 35px;
+  }
+  @media (min-width: 768px) {
+    font-size: 41px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 48px;
+  }
+}
+
+.professional-team__subtitle {
+  font-size: 19px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--light-text-color);
+  margin-bottom: 30px;
+}
+
+.professional-team__cta-title {
+  font-size: 22px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  @media (min-width: 1024px) {
+    font-size: 25px;
+  }
+}
+
+.professional-team__cta-text {
+  font-size: 17px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.professional-team__cta-link {
+  font-size: 12px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--bottom-color);
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.professional-team__member-name {
+  font-size: 22px;
+  font-family: "Rajdhani", "sans-serif";
+  color: var(--main-text-color);
+  margin-bottom: 25px;
+}
+
+.professional-team__member-position {
+  font-size: 14px;
+  font-family: "Heebo", "sans-serif";
+  color: var(--text-color);
+}
+
+.professional-team__container {
+  padding: 90px 24px 30px 24px;
+}
+
+.professional-team__cta {
+  display: flex;
+  @media (min-width: 768px) {
+  flex-direction: column;
+  }
+}
+
+.professional-team__cta-img {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.professional-team__cta-body {
+  max-width: 50%;
+  @media (min-width: 768px) {
+    margin: auto;
+  }
+}
+
+.professional-team__cta-image-wrapper {
+  min-width: 40%;
+}
+
+.professional-team__member {
+  margin-top: 50px;
+}
+
+.professional-team__header {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.professional-team__grid {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.professional-team__member-photo {
+  @media (min-width: 768px) {
+    /* width: 100%;
+    height: 400px;
+    object-fit: cover; */
+    width: 100%; /* Картинка займає всю ширину колонки */
+    aspect-ratio: 1 / 1; /* Робить картинку ідеально квадратною (можна 3/4 або інше) */
+    object-fit: cover; /* Обрізає зайве, щоб фото не розтягувалося */
+    display: block;
+  }
+  margin-bottom: 25px;
+}
