@@ -61,6 +61,8 @@
 
 .professional-team__container {
   padding: 90px 24px 30px 24px;
+  max-width: 1250px;
+  margin: auto;
 }
 
 .professional-team__cta {

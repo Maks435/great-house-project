@@ -4,6 +4,11 @@
   color: var(--light-text-color);
   margin: 30px 0px;
   text-align: center;
+  @media (min-width: 768px) {
+    text-align: left;
+    padding: 15px;
+    margin-top: 20px;
+  }
 }
 
 .footer__title {
@@ -12,6 +17,13 @@
   color: var(--main-text-color);
   text-align: center;
   margin-top: 40px;
+  @media (min-width: 768px) {
+    text-align: left;
+    margin-top: 0;
+  }
+  @media (min-width: 1024px) {
+    font-size: 25px;
+  }
 }
 
 .footer__link {
@@ -37,6 +49,10 @@
 
 .footer__container {
   padding: 75px 24px 65px 24px;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .footer__logo {
@@ -50,6 +66,9 @@
   margin: auto;
   justify-content: space-between;
   margin-bottom: 40px;
+  @media (min-width: 768px) {
+    max-width: 80%;
+  }
 }
 
 .footer__social-icon {
@@ -63,6 +82,9 @@
   text-decoration: none;
   list-style: none;
   text-align: center;
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .footer__list {
@@ -70,12 +92,15 @@
 }
 
 .footer__divider {
-  width: 30%;             /* Або, наприклад, 50px, якщо лінія має бути короткою */
+  width: 30%; /* Або, наприклад, 50px, якщо лінія має бути короткою */
   height: 3px;
   background-color: var(--background-color-2); /* Колір як на скріні */
-  margin: auto;  
+  margin: auto;
   margin-top: 15px;
-  justify-content: center;        /* Відступи зверху та знизу по 15px */
+  justify-content: center;
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
 }
 
 .footer__button {
@@ -105,19 +130,18 @@
 .footer__input {
   width: 100%;
   padding: 9px 85px; /* Внутрішні відступи для висоти */
-  
+
   /* Колір фону та рамки як на скріні */
-  background-color: var(--background-color-2); 
+  background-color: var(--background-color-2);
   border: 1px solid var(--background-color-2);
   /* Заокруглення кутів */
   border-radius: 12px;
-  
+
   /* Налаштування тексту */
   color: #ffffff;
   font-family: "Rajdhani", sans-serif;
   font-size: 18px;
   text-align: center;
-  
 }
 
 /* Стиль для тексту-підказки (Email*) */
