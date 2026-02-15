@@ -54,6 +54,10 @@
   }
 }
 
+.header--about {
+  background-image: url(../img/about_us_fon.png);
+}
+
 /* Кнопки*/
 .header__hero-actions {
   display: flex;
