@@ -46,6 +46,14 @@
   letter-spacing: 1px;
 }
 
+/* Underline 'VIEW VACANCIES' on hover/focus */
+.professional-team__cta-link:hover,
+.professional-team__cta-link:focus {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
 .professional-team__member-name {
   font-size: 22px;
   font-family: "Rajdhani", "sans-serif";

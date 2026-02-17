@@ -1,6 +1,0 @@
-.header--about {
-  background-image: url(../img/about_us_fon.png);
-  background-size: cover; /* Щоб картинка розтягнулася на весь блок */
-  background-position: center;
-  min-height: 300px; /* Тимчасово задай висоту, щоб побачити результат */
-}

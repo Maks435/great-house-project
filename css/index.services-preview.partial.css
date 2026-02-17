@@ -134,3 +134,11 @@
     margin-bottom: 40px;
   }
 }
+
+/* Underline 'VIEW ALL SECTORS' on hover/focus */
+.services-preview__header-link:hover,
+.services-preview__header-link:focus {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}

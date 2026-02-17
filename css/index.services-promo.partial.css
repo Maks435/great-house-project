@@ -94,3 +94,12 @@
     object-position: center;
   }
 }
+
+/* Make the offer button become white on hover (inverse style) */
+.offer-promo__btn:hover,
+.offer-promo__btn:focus {
+  background-color: #ffffff;
+  color: var(--main-text-color);
+  border-color: rgba(0, 0, 0, 0.06);
+  box-shadow: none;
+}

@@ -21,6 +21,14 @@
   letter-spacing: 1px;
 }
 
+/* Underline 'ALL PROJECTS' on hover/focus */
+.latest-projects__link:hover,
+.latest-projects__link:focus {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
 .latest-projects__header-action {
   text-align: right;
 }

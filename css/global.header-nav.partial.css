@@ -157,3 +157,39 @@
     transform: translateY(0) rotate(-45deg);
   }
 }
+
+/* Hover and focus styles for header navigation */
+.header__menu-link {
+  position: relative;
+  display: inline-block;
+  transition: color var(--transition-speed);
+}
+
+.header__menu-link::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 3px;
+  background: #ffffff;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  margin: 6px auto 0;
+}
+
+.header__menu-link:hover,
+.header__menu-link:focus {
+  color: var(--accent-color);
+}
+
+.header__menu-link:hover::after,
+.header__menu-link:focus::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Phone number underline on hover (no color change) */
+.header__number-phone:hover,
+.header__number-phone:focus {
+  text-decoration: underline;
+}
